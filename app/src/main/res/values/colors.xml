@@ -12,6 +12,8 @@
     <color name="GreyScale_line">#FFD9DBE9</color>
     <color name="GreyScale_TitleActive">#FF14142B</color>
     <color name="green">#FF30A283</color>
+    <color name="Visitors_bg">#FFF7F7FC</color>
+
 
 
 </resources>
