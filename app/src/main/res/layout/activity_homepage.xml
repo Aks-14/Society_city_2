@@ -151,7 +151,8 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/curved_by_7"
-            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+            tools:srcCompat="@tools:sample/backgrounds/scenic"
+            tools:ignore="ContentDescription" />
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
@@ -169,7 +170,8 @@
             android:layout_marginTop="15dp"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            app:srcCompat="@drawable/line" />
+            app:srcCompat="@drawable/line"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -189,7 +191,8 @@
             android:layout_below="@+id/QL"
             android:layout_marginStart="26dp"
             android:layout_marginTop="16dp"
-            android:background="@drawable/visitors" />
+            android:background="@drawable/visitors"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
 
         <TextView
             android:layout_width="63dp"
@@ -237,7 +240,7 @@
             android:textSize="9sp"
             android:textColor="#A0A3BD"
             android:textStyle="normal"
-            />
+            tools:ignore="SmallSp" />
 
         <TextView
             android:layout_width="40dp"
@@ -276,7 +279,7 @@
             android:textSize="9sp"
             android:textColor="#A0A3BD"
             android:textStyle="normal"
-            />
+            tools:ignore="SmallSp" />
 
         <ImageView
             android:id="@+id/imageView14"
@@ -286,7 +289,8 @@
             android:layout_marginTop="150dp"
             android:layout_marginStart="36dp"
             android:layout_marginEnd="16dp"
-            app:srcCompat="@drawable/line" />
+            app:srcCompat="@drawable/line"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="51dp"
@@ -307,7 +311,7 @@
             android:layout_marginTop="16dp"
             android:background="@drawable/visitors"
             android:layout_below="@+id/QL"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="40dp"
@@ -344,7 +348,7 @@
             android:layout_marginTop="16dp"
             android:background="@drawable/visitors"
             android:layout_below="@+id/QL"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="40dp"
@@ -379,7 +383,7 @@
             android:layout_marginTop="16dp"
             android:background="@drawable/curved_by_7"
             android:layout_below="@+id/imageView9"
-            />
+            tools:ignore="ContentDescription" />
 
         <ImageView
             android:id="@+id/imageView11"
@@ -389,7 +393,7 @@
             android:layout_marginTop="16dp"
             android:background="@drawable/curved_by_7"
             android:layout_below="@+id/imageView9"
-            />
+            tools:ignore="ContentDescription" />
 
         <ImageView
             android:id="@+id/imageView12"
@@ -399,7 +403,7 @@
             android:layout_marginTop="16dp"
             android:background="@drawable/curved_by_7"
             android:layout_below="@+id/imageView9"
-            />
+            tools:ignore="ContentDescription" />
 
         <ImageView
             android:id="@+id/Service_and_Amenities_box"
@@ -410,7 +414,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             app:srcCompat="@drawable/line"
-            tools:ignore="NotSibling" />
+            tools:ignore="ContentDescription,NotSibling" />
 
         <TextView
             android:layout_width="182dp"
@@ -428,11 +432,11 @@
             android:id="@+id/imageView15"
             android:layout_width="46dp"
             android:layout_height="46dp"
-            android:layout_marginStart="41dp"
+            android:layout_marginStart="45dp"
             android:layout_marginTop="20dp"
             android:layout_below="@+id/sa"
-            app:srcCompat="@drawable/profile_circle" 
-            />
+            app:srcCompat="@drawable/profile_circle"
+            android:importantForAccessibility="no" />
         <TextView
             android:layout_width="72dp"
             android:layout_height="28dp"
@@ -440,7 +444,7 @@
             android:textColor="@color/GreyScale_TitleActive"
             android:textSize="12sp"
             android:layout_below="@id/sa"
-            android:layout_marginStart="28dp"
+            android:layout_marginStart="30dp"
             android:layout_marginTop="72dp"
             android:textAlignment="center"
             />
@@ -449,11 +453,11 @@
             android:id="@+id/imageView16"
             android:layout_width="46dp"
             android:layout_height="46dp"
-            android:layout_marginStart="123dp"
+            android:layout_marginStart="125dp"
             android:layout_marginTop="20dp"
             android:layout_below="@+id/sa"
             app:srcCompat="@drawable/profile_circle"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="72dp"
@@ -462,7 +466,7 @@
             android:textColor="@color/GreyScale_TitleActive"
             android:textSize="12sp"
             android:layout_below="@id/sa"
-            android:layout_marginStart="110dp"
+            android:layout_marginStart="112dp"
             android:layout_marginTop="72dp"
             android:textAlignment="center"
             />
@@ -471,11 +475,11 @@
             android:id="@+id/imageView17"
             android:layout_width="46dp"
             android:layout_height="46dp"
-            android:layout_marginStart="205dp"
+            android:layout_marginStart="215dp"
             android:layout_marginTop="20dp"
             android:layout_below="@+id/sa"
             app:srcCompat="@drawable/profile_circle"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="72dp"
@@ -484,7 +488,7 @@
             android:textColor="@color/GreyScale_TitleActive"
             android:textSize="12sp"
             android:layout_below="@id/sa"
-            android:layout_marginStart="192dp"
+            android:layout_marginStart="198dp"
             android:layout_marginTop="72dp"
             android:textAlignment="center"
             />
@@ -493,11 +497,11 @@
             android:id="@+id/imageView18"
             android:layout_width="46dp"
             android:layout_height="46dp"
-            android:layout_marginStart="287dp"
+            android:layout_marginStart="297dp"
             android:layout_marginTop="20dp"
             android:layout_below="@+id/sa"
             app:srcCompat="@drawable/profile_circle"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="72dp"
@@ -506,7 +510,7 @@
             android:textColor="@color/GreyScale_TitleActive"
             android:textSize="12sp"
             android:layout_below="@id/sa"
-            android:layout_marginStart="269dp"
+            android:layout_marginStart="284dp"
             android:layout_marginTop="72dp"
             android:textAlignment="center"
             />
