@@ -153,6 +153,7 @@
             android:background="@drawable/curved_by_7"
             tools:srcCompat="@tools:sample/backgrounds/scenic"
             tools:ignore="ContentDescription" />
+
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
@@ -521,67 +522,68 @@
             android:layout_below="@id/sa"
             android:layout_marginTop="120dp"
             />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_below="@id/view_sp"
-            android:background="@color/white"
-            tools:ignore="MissingConstraints">
-
-            <Button
-                android:id="@+id/btnHome"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:padding="6dp"
-                android:text="Home"
-                android:textColor="@color/white"
-                android:background="@drawable/circle_notifications"/>
-
-            <Button
-                android:id="@+id/btnDailyNeeds"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:padding="6dp"
-                android:text="Daily Needs"
-                android:textColor="@color/white"
-                android:background="@drawable/circle_notifications"/>
-
-            <Button
-                android:id="@+id/btnPopular"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:padding="6px"
-                android:text="Popular"
-                android:textColor="@color/white"
-                android:background="@drawable/circle_notifications"/>
-
-            <Button
-                android:id="@+id/btnDiscover"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:padding="6px"
-                android:text="Discover"
-                android:textColor="@color/white"
-                android:background="@drawable/circle_notifications"/>
-
-            <Button
-                android:id="@+id/btnMyProfile"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:padding="6px"
-                android:text="My Profile"
-                android:textColor="@color/white"
-                android:background="@drawable/circle_notifications"/>
-        </LinearLayout>
-
     </RelativeLayout>
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_below="@id/view_sp"-->
+<!--        android:background="@color/white"-->
+<!--        tools:ignore="MissingConstraints">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnHome"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:padding="6dp"-->
+<!--            android:text="Home"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:background="@drawable/circle_notifications"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnDailyNeeds"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:padding="6dp"-->
+<!--            android:text="Daily Needs"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:background="@drawable/circle_notifications"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnPopular"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:padding="6px"-->
+<!--            android:text="Popular"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:background="@drawable/circle_notifications"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnDiscover"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:padding="6px"-->
+<!--            android:text="Discover"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:background="@drawable/circle_notifications"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnMyProfile"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:padding="6px"-->
+<!--            android:text="My Profile"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:background="@drawable/circle_notifications"/>-->
+<!--    </LinearLayout>-->
+
 
 
 
