@@ -1,16 +1,11 @@
 package com.example.societycity2
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 
-class Homepage : AppCompatActivity() {
+class test_xml : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        supportActionBar?.hide();
-        setContentView(R.layout.activity_homepage)
-
-
+        setContentView(R.layout.activity_test_xml)
     }
 }

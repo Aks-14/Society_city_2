@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test_xml">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/curved_background"
+        tools:ignore="MissingConstraints"
+        >
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/curved_by_7"
+            tools:srcCompat="@tools:sample/backgrounds/scenic"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="80dp"
+            android:textSize="12sp"
+            android:text="Button" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_below="@id/button3"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:srcCompat="@drawable/line"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/QL"
+            android:layout_marginTop="23dp"
+            android:layout_marginStart="28dp"
+            android:text="Quick Links"
+            android:layout_below="@+id/imageView8"
+            android:textSize="16sp"
+            android:textColor="@color/GreyScale_TitleActive"/>
+
+        <ImageView
+            android:id="@+id/greysolidbg1"
+            android:layout_width="164dp"
+            android:layout_height="169dp"
+            android:layout_below="@+id/QL"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/visitors"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
+
+        <TextView
+            android:layout_width="63dp"
+            android:layout_height="17dp"
+            android:layout_below="@id/QL"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="26dp"
+            android:text="Visitors"
+            android:textColor="@color/GreyScale_TitleActive"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/QL"
+            android:layout_marginTop="56dp"
+            android:layout_marginStart="46dp"
+            android:background="@drawable/profile_circle"
+            android:text="MS"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="68dp"
+            android:layout_height="15dp"
+            android:layout_below="@+id/QL"
+            android:layout_marginTop="104dp"
+            android:layout_marginStart="32dp"
+            android:text="Mohan Sa.."
+            android:textSize="12sp"
+            android:textColor="#4E4B66"
+            android:textStyle="normal"
+            />
+
+        <TextView
+            android:layout_width="74dp"
+            android:layout_height="15dp"
+            android:layout_below="@+id/QL"
+            android:layout_marginTop="121dp"
+            android:layout_marginStart="32dp"
+            android:text="12 Jan, 6:00pm"
+            android:textSize="9sp"
+            android:textColor="#A0A3BD"
+            android:textStyle="normal"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/QL"
+            android:layout_marginTop="56dp"
+            android:layout_marginStart="125dp"
+            android:layout_marginEnd="23dp"
+            android:background="@drawable/profile_circle"
+            android:text="US"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="68dp"
+            android:layout_height="15dp"
+            android:layout_below="@+id/QL"
+            android:layout_marginTop="104dp"
+            android:layout_marginStart="111dp"
+            android:text="Uma Saw.."
+            android:textSize="12sp"
+            android:textColor="#4E4B66"
+            android:textStyle="normal"
+            />
+
+        <TextView
+            android:layout_width="74dp"
+            android:layout_height="15dp"
+            android:layout_below="@+id/QL"
+            android:layout_marginTop="121dp"
+            android:layout_marginStart="108dp"
+            android:text="13 Jan, 8:30pm"
+            android:textSize="9sp"
+            android:textColor="#A0A3BD"
+            android:textStyle="normal"
+            tools:ignore="SmallSp" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="144dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/QL"
+            android:layout_marginTop="150dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="16dp"
+            app:srcCompat="@drawable/line"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="51dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginStart="76dp"
+            android:layout_below="@id/QL"
+            android:text="view all "
+            android:textColor="#339FFE"
+            android:textSize="14sp"
+            />
+<!--        yha tak huaa aage se copy kro-->
+
+        <ImageView
+            android:id="@+id/greysolidbg2"
+            android:layout_width="78dp"
+            android:layout_height="169dp"
+            android:layout_marginStart="199dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/visitors"
+            android:layout_below="@+id/QL"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/QL"
+            android:layout_marginTop="56dp"
+            android:layout_marginStart="217dp"
+            android:background="@drawable/profile_circle"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="67dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/QL"
+            android:layout_marginTop="104dp"
+            android:layout_marginStart="204dp"
+            android:text="Society  Account"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:textColor="#4E4B66"
+            android:textStyle="normal"
+            />
+
+
+        <ImageView
+            android:id="@+id/greysolidbg3"
+            android:layout_width="77dp"
+            android:layout_height="169dp"
+            android:layout_marginStart="285dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/visitors"
+            android:layout_below="@+id/QL"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/QL"
+            android:layout_marginTop="56dp"
+            android:layout_marginStart="303dp"
+            android:background="@drawable/profile_circle"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="67dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/QL"
+            android:layout_marginStart="290dp"
+            android:layout_marginTop="101dp"
+            android:text="Society Corner"
+            android:textAlignment="center"
+            android:textColor="#4E4B66"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="157dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/curved_by_7"
+            android:layout_below="@+id/imageView9"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="157dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="181dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/curved_by_7"
+            android:layout_below="@+id/imageView9"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="157dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="346dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/curved_by_7"
+            android:layout_below="@+id/imageView9"
+            tools:ignore="ContentDescription" />
+<!--        dsbfjygewiufg ui vguiew gffui-->
+
+        <ImageView
+            android:id="@+id/Service_and_Amenities_box"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_below="@id/imageView12"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:srcCompat="@drawable/line"
+            tools:ignore="ContentDescription,NotSibling" />
+
+        <TextView
+            android:layout_width="182dp"
+            android:layout_height="24dp"
+            android:text="Service and Amenities"
+            android:id="@+id/sa"
+            android:textColor="@color/GreyScale_TitleActive"
+            android:textSize="16sp"
+            android:layout_marginTop="23dp"
+            android:layout_below="@+id/imageView10"
+            android:textStyle="bold"
+            android:layout_marginStart="28dp"/>
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/sa"
+            app:srcCompat="@drawable/profile_circle"
+            android:importantForAccessibility="no" />
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="28dp"
+            android:text="Utility Bill"
+            android:textColor="@color/GreyScale_TitleActive"
+            android:textSize="12sp"
+            android:layout_below="@id/sa"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="72dp"
+            android:textAlignment="center"
+            />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/sa"
+            app:srcCompat="@drawable/profile_circle"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="28dp"
+            android:text="Discover"
+            android:textColor="@color/GreyScale_TitleActive"
+            android:textSize="12sp"
+            android:layout_below="@id/sa"
+            android:layout_marginStart="112dp"
+            android:layout_marginTop="72dp"
+            android:textAlignment="center"
+            />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="215dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/sa"
+            app:srcCompat="@drawable/profile_circle"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="28dp"
+            android:text="Local Service"
+            android:textColor="@color/GreyScale_TitleActive"
+            android:textSize="12sp"
+            android:layout_below="@id/sa"
+            android:layout_marginStart="198dp"
+            android:layout_marginTop="72dp"
+            android:textAlignment="center"
+            />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="297dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/sa"
+            app:srcCompat="@drawable/profile_circle"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="28dp"
+            android:text="Exclusive Store"
+            android:textColor="@color/GreyScale_TitleActive"
+            android:textSize="12sp"
+            android:layout_below="@id/sa"
+            android:layout_marginStart="284dp"
+            android:layout_marginTop="72dp"
+            android:textAlignment="center"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/view_sp"
+            android:layout_below="@id/sa"
+            android:layout_marginTop="120dp"
+            />
+    </RelativeLayout>
+
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:layout_below="@id/view_sp"-->
+    <!--        android:background="@color/white"-->
+    <!--        tools:ignore="MissingConstraints">-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/btnHome"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:padding="6dp"-->
+    <!--            android:text="Home"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:background="@drawable/circle_notifications"/>-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/btnDailyNeeds"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:padding="6dp"-->
+    <!--            android:text="Daily Needs"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:background="@drawable/circle_notifications"/>-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/btnPopular"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:padding="6px"-->
+    <!--            android:text="Popular"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:background="@drawable/circle_notifications"/>-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/btnDiscover"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:padding="6px"-->
+    <!--            android:text="Discover"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:background="@drawable/circle_notifications"/>-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/btnMyProfile"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:padding="6px"-->
+    <!--            android:text="My Profile"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:background="@drawable/circle_notifications"/>-->
+    <!--    </LinearLayout>-->
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

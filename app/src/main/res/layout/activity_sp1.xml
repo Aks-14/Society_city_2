@@ -1,30 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- activity_splash_screen.xml -->
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue_h"
+    android:background="#339FFE"
     >
 
-    <!-- Add your logo or any other splash screen elements here -->
+
     <ImageView
         android:id="@+id/splash_logo"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="190dp"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/logo" />
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.273" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
         android:layout_below="@id/splash_logo"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
         android:text="Society City"
         android:textColor="@color/white"
-        android:textSize="28sp"
-        android:textStyle="bold" />
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/splash_logo"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/splash_logo"
+        app:layout_constraintTop_toBottomOf="@+id/splash_logo"
+        app:layout_constraintVertical_bias="0.042" />
 
     <!-- Add any additional elements or customize the layout as needed -->
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
